@@ -1,1 +1,4 @@
 output.xml
+src/mixxx2rb/__pycache__
+src/mixxx2rb/__pycache__/*
+src/mixxx2rb/__pycache__/**/*
