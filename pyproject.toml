@@ -1,0 +1,19 @@
+[project]
+name = "mixxx2rb"
+version = "0.1.0"
+description = "converts mixxx's sqlite into rekordbox xml"
+readme = "README.md"
+authors = [
+    { name = "SKull", email = "skull@darktemple.ch" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "protobuf>=6.32.1",
+]
+
+[project.scripts]
+mixxx2rb = "mixxx2rb.extract_to_xml:main"
+
+[build-system]
+requires = ["uv_build>=0.8.11,<0.9.0"]
+build-backend = "uv_build"
